@@ -1,0 +1,27 @@
+{
+  "name": "RESTful-Web-Services-with-Node.js-and-Express",
+  "version": "1.0.0",
+  "description": "The term **RE**presentational **S**tate **T**ransfer came from a dissertation written by Roy Fielding back in 2000.\r He described a series of constraints that should be in place whenever two systems talk to each other.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha ./controllers/book.spec.js",
+    "test_e2e": "cross-env NODE_ENV=test mocha ./controllers/book.e2e.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "mongoose": "^4.7.3"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "cross-env": "^3.1.3",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.6",
+    "supertest": "^2.0.1"
+  }
+}
